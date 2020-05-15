@@ -20,3 +20,8 @@ string Block::get_val(){
 int Block::get_hash(){
     return this->hash_val;
 }
+
+
+int Block::get_prev_hash(){
+    return this->prev_hash_val;
+}

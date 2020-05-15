@@ -8,4 +8,5 @@ class Block{
     Block(int, string);
     string get_val();
     int get_hash();
+    int get_prev_hash();
 };
